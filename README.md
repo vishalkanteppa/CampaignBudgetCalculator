@@ -37,7 +37,6 @@ cd CampaignBudgetCalculator
 Ensure that all dependencies are installed, then build the project:
 
 - Use `Ctrl + Shift + B` to build the solution.
-- 
 
 ### 5. Run the Application
 
@@ -49,7 +48,7 @@ Ensure that all dependencies are installed, then build the project:
 Once the application is running, open your web browser and go to:
 
 ```
-https://localhost:5001/campaign
+https://localhost:<port_no.>/campaign
 ```
-
+Please check the port number before going to the URL as it may vary from system to system.
 Now you can input the total campaign budget, individual ad budgets, agency fees, third-party tool fees, and fixed costs to calculate the optimal ad budget.
